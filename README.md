@@ -114,12 +114,10 @@ Merge or fetch contact cluster for a given **email** and/or **phoneNumber**.
 #### cURL Example
 
 ```bash
-curl -X POST https://bitespeed-api.onrender.com/identify \
+curl -X POST https://identity-reconciliation.onrender.com/identify \
      -H "Content-Type: application/json" \
      -d '{"email":"alice@example.com","phoneNumber":"9998887777"}'
 ```
-
-*(Replace URL with your Render endpoint during testing.)*
 
 ---
 
@@ -148,7 +146,7 @@ git push -u origin main
 6. Note the public URL, e.g.:
 
    ```
-   https://bitespeed-api.onrender.com
+   https://identity-reconciliation.onrender.com
    ```
 
 ### 3. Post‑deploy checklist
@@ -164,7 +162,7 @@ git push -u origin main
 > Replace the placeholder after first deploy.
 
 ```text
-https://bitespeed-api.onrender.com/identify
+https://identity-reconciliation.onrender.com/identify
 ```
 
 ---
