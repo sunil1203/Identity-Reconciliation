@@ -1,0 +1,45 @@
+{
+  "name": "identity-reconciliation",
+  "version": "1.0.0",
+  "description": "REST API to reconcile duplicate contact identities using email/phone and return unified contact relationships.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint . --ext .ts --quiet",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "lint:strict": "eslint . --ext .ts --max-warnings 0"
+  },
+  "dependencies": {
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.25"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.10",
+    "@typescript-eslint/eslint-plugin": "^8.36.0",
+    "@typescript-eslint/parser": "^8.36.0",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunil1203/Identity-Reconciliation.git"
+  },
+  "author": "Sunil Kumar Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunil1203/Identity-Reconciliation/issues"
+  },
+  "homepage": "https://github.com/sunil1203/Identity-Reconciliation#readme"
+}
