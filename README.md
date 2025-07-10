@@ -45,7 +45,7 @@ Identity-Reconciliation/
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/<your‑gh>/Identity-Reconciliation.git
+git clone https://github.com/sunil1203/Identity-Reconciliation.git
 cd Identity-Reconciliation
 npm install
 ```
@@ -114,7 +114,7 @@ Merge or fetch contact cluster for a given **email** and/or **phoneNumber**.
 #### cURL Example
 
 ```bash
-curl -X POST https://identity-reconciliation.onrender.com/identify \
+curl -X POST https://identity-reconciliation-9wn6.onrender.com/identify \
      -H "Content-Type: application/json" \
      -d '{"email":"alice@example.com","phoneNumber":"9998887777"}'
 ```
@@ -146,7 +146,7 @@ git push -u origin main
 6. Note the public URL, e.g.:
 
    ```
-   https://identity-reconciliation.onrender.com
+   https://identity-reconciliation-9wn6.onrender.com
    ```
 
 ### 3. Post‑deploy checklist
@@ -159,10 +159,8 @@ git push -u origin main
 
 ## 🌍 Hosted URL
 
-> Replace the placeholder after first deploy.
-
 ```text
-https://identity-reconciliation.onrender.com/identify
+https://identity-reconciliation-9wn6.onrender.com/identify
 ```
 
 ---
